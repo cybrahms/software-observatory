@@ -139,7 +139,7 @@ Operator-only notes live in an untracked `OPERATIONS.md` at the repo root
    ```
 
 3. Write the markdown body. Keep the opening paragraph self-contained —
-   it becomes the catalog card blurb and the homepage entry row.
+   it becomes the catalog card blurb.
 4. Run `make check` (above). A `family` with no matching entry in
    `FAMILIES` silently drops the sensor off the catalog and atlas (the
    detail page still generates) — check the build output counts.
